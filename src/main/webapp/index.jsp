@@ -482,7 +482,7 @@
 
     // 检验用户名是否可用, change() 是当用户名改变时发送请求检查是否有重复的名字
     $("#empName_input").change(function () {
-        var empName = this.value();
+        var empName = this.value;
         $.ajax({
             url: "${APP_PATH}/checkuser",
             data: "empName=" + empName,
