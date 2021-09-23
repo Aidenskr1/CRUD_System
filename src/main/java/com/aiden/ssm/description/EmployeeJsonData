@@ -1,0 +1,35 @@
+    /**
+     * 以下就是我们返回的 json 数据
+     * {
+     *      "code":100,
+     *      "message":"处理成功！",
+     *      "extend":{
+     *          "pageInfo":{
+     *              "total":1001,
+     *              "list":[
+     *                  {"empId":1,"empName":"Aiden","gender":"F","email":"aidenskr1@gmail.com","dId":1,"department":{"deptId":1,"deptName":"开发部"}},
+     *                  {"empId":2,"empName":"a0c460","gender":"F","email":"a0c460@gmail.com","dId":1,"department":{"deptId":1,"deptName":"开发部"}},
+     *                  {"empId":3,"empName":"9643b1","gender":"F","email":"9643b1@gmail.com","dId":1,"department":{"deptId":1,"deptName":"开发部"}},
+     *                  {"empId":4,"empName":"3963d2","gender":"F","email":"3963d2@gmail.com","dId":1,"department":{"deptId":1,"deptName":"开发部"}},
+     *                  {"empId":5,"empName":"52d413","gender":"F","email":"52d413@gmail.com","dId":1,"department":{"deptId":1,"deptName":"开发部"}}
+     *              ],
+     *              "pageNum":1,
+     *              "pageSize":5,
+     *              "size":5,
+     *              "startRow":1,
+     *              "endRow":5,
+     *              "pages":201,
+     *              "prePage":0,
+     *              "nextPage":2,
+     *              "isFirstPage":true,
+     *              "isLastPage":false,
+     *              "hasPreviousPage":false,
+     *              "hasNextPage":true,
+     *              "navigatePages":5,
+     *              "navigatepageNums":[1,2,3,4,5],
+     *              "navigateFirstPage":1,
+     *              "navigateLastPage":5
+     *          }
+     *      }
+     * }
+     */
